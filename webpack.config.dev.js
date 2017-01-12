@@ -11,7 +11,7 @@ const hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true';
 module.exports ={
     devtool:'cheap-module-eval-source-map',
     entry:{
-        app:[
+        index:[
             './src/index.js',
             hotMiddlewareScript
         ]
